@@ -1,26 +1,26 @@
 class Mux < Formula
   desc "The official Mux CLI"
   homepage "https://github.com/muxinc/cli"
-  version "1.0.2"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/muxinc/cli/releases/download/v1.0.2/mux-darwin-arm64"
-      sha256 "4ddc5be590c81a818a202bc776568d5b16996895d700ea9519f5ffe2413b97de"
+      url "https://github.com/muxinc/cli/releases/download/v1.1.0/mux-darwin-arm64"
+      sha256 "a6901c9b1cea1407f8af66c02c3fb41a0a482157ef4dca89c01dc4de2322eb3c"
     else
-      url "https://github.com/muxinc/cli/releases/download/v1.0.2/mux-darwin-x64"
-      sha256 "7a692c058c9d1ccc727b9366bb7a0603d2dac044d5f30f293a1846a17ee81e4f"
+      url "https://github.com/muxinc/cli/releases/download/v1.1.0/mux-darwin-x64"
+      sha256 "e3fbf861e44da88a294bbbfe86bed1275b9b2ef3849a2948898afeec19623016"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/muxinc/cli/releases/download/v1.0.2/mux-linux-arm64"
-      sha256 "f10ee56f95dcc2c8344ffa4899d8bb900a39b48201d10072de81812ddca877a2"
+      url "https://github.com/muxinc/cli/releases/download/v1.1.0/mux-linux-arm64"
+      sha256 "a1beb7cc2d2c09e7a86f5fd6e31297e51f79eccad5201293a61e8af381dcc10c"
     else
-      url "https://github.com/muxinc/cli/releases/download/v1.0.2/mux-linux-x64"
-      sha256 "7d551276e0a25794f51268419abf65e09979aef19bb0a58f974640b1b3345cfa"
+      url "https://github.com/muxinc/cli/releases/download/v1.1.0/mux-linux-x64"
+      sha256 "92c9e0f07222ec010b2ebc1603421b40fc1cbf7cc1ab34b3501769336d30bc90"
     end
   end
 
